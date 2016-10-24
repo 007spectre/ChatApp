@@ -137,7 +137,7 @@ public class ListFragment extends Fragment {
             @Override
             public void itemclicked(View view, int position) {
                 Users user=db.fetchUser().get(position);
-                Toast.makeText(getActivity(),""+user.getUsername()+user.getToken(),Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(),""+user.getUsername(),Toast.LENGTH_LONG).show();
                 Log.v("token","token"+user.getToken());
                 Intent intent=new Intent(getActivity(),ChatActivity.class);
                 intent.putExtra("email", user.getEmail());
