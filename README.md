@@ -53,7 +53,24 @@ dependencies used:-
         }
     };
     
-    
+    for Storing data Locally:-
+      SQLiteHandler.java 
+      queries used:
+      
+      1.For retrieving user messages 
+		Cursor cursor = db
+				.rawQuery(
+						"select * from message where useremail='" + email + "' OR recieveremail='" + email + "'", null);
+                 // to retrieve user  messages from the user table according to email whether it can be either useremail or recieveremail
+                 
+        2. for Search:_
+        		Cursor cursor = db
+				.rawQuery(
+						"select * from message where message like '%"+message+"%'", null);
+                  // message from message table according to user type in text by Like query
+                 
+                 
+                 
     
     
     
