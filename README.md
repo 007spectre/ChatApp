@@ -52,6 +52,42 @@ dependencies used:-
 
         }
     };
+    for stroring Json format used:_
+     JSONArray jsonArray=new JSONArray();
+
+
+
+
+                        for(int i=0;i<userMessageList.size();i++){
+                            MessageEntity messageEntity=userMessageList.get(i);
+                            JSONObject messageObject = new JSONObject();
+                            messageObject.put("message", messageEntity.getMessage());
+                            messageObject.put("useremail", messageEntity.getUseremail());
+                            messageObject.put("username",  messageEntity.getUsername());
+                            messageObject.put("recieveremail", messageEntity.getRecieveremail());
+                            messageObject.put("recievername",messageEntity.getRecievername() );
+                            messageObject.put("token",messageEntity.getToken());
+                            messageObject.put("id", messageEntity.getId());
+                            jsonArray.put(messageObject);
+
+
+
+                        }
+
+                        writer.write(""+jsonArray);
+                        writer.close();
+                    } catch (IOException e) {
+                        Log.e(TAG, e.getMessage());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+    
+    
+        <a href="https://github.com/007spectre/ChatAppBuyHatke/blob/master/Sample/New%20file.txt">Sample of Json uploaded to google drive</a>
+	
+	
+	
+
     
     
     for saving the data or to reduce app size  I have used TinyPng:-
