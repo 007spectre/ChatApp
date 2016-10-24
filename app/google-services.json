@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "465115670019",
+    "firebase_url": "https://credentials-d5a3b.firebaseio.com",
+    "project_id": "credentials-d5a3b",
+    "storage_bucket": "credentials-d5a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465115670019:android:fb97426c3ccb2fe7",
+        "android_client_info": {
+          "package_name": "com.example.saurabhgoyal.buyhatkeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465115670019-k5o2mo72brnft772jcvjc21h8rgvae6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxS-vM71KIyzl7LafSlOkhABI4rFw-3P0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
