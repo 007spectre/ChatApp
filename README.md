@@ -17,7 +17,7 @@ dependencies used:-
             <string name="gcm_defaultSenderId">319322556887</string>
             
             
-            Services used:-sjsjjs
+            Services used:-
             
             1. GCMRegId.php
             2. gcm.php
