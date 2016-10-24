@@ -53,6 +53,13 @@ dependencies used:-
         }
     };
     
+    
+    for saving the data or to reduce app size  I have used TinyPng:-
+    <a href="https://tinypng.com/">Tiny Png for App Size</a>
+
+   
+    
+    
     for Storing data Locally:-
       SQLiteHandler.java 
       queries used:
