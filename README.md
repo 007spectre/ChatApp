@@ -75,30 +75,21 @@ dependencies used:-
 				.rawQuery(
 						"select * from message where message like '%"+message+"%'", null);
                   // message from message table according to user type in text by Like query
-                 
-                 
-                 
-    
-    
-    
-                  
-                  
-                  
-
-      
-            
-            
-            
-            
-            
-            
-            
-     
-
-        
-        
-
-
+		  
+	Material Design concept:_
+	1. Sliding Tab Layout
+	2. Recyler View
+	3. Card View 
+	
+	Validation check:-
+	1. Email type validation
+	2. Blank test validation
+	
+	Other Concepts:
+	1. RoundImageView
+	2. Webview
+	3. Connection Dectector for checking the internet
+	4. Fragments
 
 
 ##Screenshots
