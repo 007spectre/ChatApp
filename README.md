@@ -1,4 +1,4 @@
-# ChatAppBuyHatke
+# ChatApp
 Libraries used
 dependencies used:-
    1. 'com.android.support:appcompat-v7:23.4.0'
